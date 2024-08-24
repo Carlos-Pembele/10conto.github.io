@@ -1,0 +1,233 @@
+[
+    {
+        "id": 0,
+        "button": "Detalhes",
+        "img": "../img/c08021779.png",
+        "Title": "HP Elite X2 G8",
+        "preco_promocional": 200,
+        "categoria": "Electrodoméstico",
+        "descricao":"Computador Portátil HP Elite x2 G8, ecrã tátil, windows 11 Pro, Intel core i5, 16GB RAM, 512GB SSD..."
+    },
+    {
+        "id": 1,
+        "img": "../img/222201620515AM_635_lenovo_vibe_k5.jpeg",
+        "Title": "Smartphone Lenovo",
+        "preco_promocional": 500,
+        "categoria": "Electrodoméstico",
+        "descricao":" Celular Lenovo com uma tela de 720x1280, Processador Qualcomm snapdragon 415, Câmera 5MP, RAM 2GB..."
+    },
+    {
+        "id": 2,
+        "img": "../img/1003516-1200-auto.jpeg",
+        "Title": "Mouse HP",
+        "preco_promocional": 600,
+        "categoria": "Electrodoméstico",
+        "descricao":"Mouse HP com fio classic conexão USB 1200dpi Cabo de 100cm 3 Botões - MO213, ajustável para laptop PC..."
+    },
+    {
+        "id": 3,
+        "img": "../img/portatil-lenovo-thinkbook-14-g6-14-i7-1355u-16gb-512gb-win11-pro-1y.jpg",
+        "Title": "Lenovo ThinkBook",
+        "preco_promocional": 800,
+        "categoria": "Computador",
+        "descricao":"Computador Lenovo ThinkBook, ecrã tátil, Processador Intel Core i7, RAM 16GB, SSD 512GB, windows 11 Pro..."
+    },
+    {
+        "id": 4,
+        "img": "../img/cartao-de-memoria-micro-sd-64gb-sandisk-classe-10-hypvxb.png",
+        "Title": "Cartão SSD",
+        "preco_promocional": 900,
+        "descricao":"Cartão SSD Sandisk Ultra, cor preto, 64 GB (temos também de diferentes formatis e armazenamento como de 32GB, 16GB...)"
+    },
+    {
+        "id": 5,
+        "img": "../img/jarraElectrica.jpg",
+        "Title": "Jarra Eléctrica",
+        "preco_promocional": 1000,
+        "descricao":"Celular Iphone 13 hero, 128GB GSM desbloqueado com protetor de tela líquida Nano, resistente a água..."
+    },
+    {
+        "id": 6,
+        "img": "../img/LENOVO_Computador_ALL-IN-ONE_30A_27''_i7-1260P_16GB_512GB_SSD_W11PRO_-_Preto_b7ev-2d.png",
+        "Title": "Computador Lenovo",
+        "descricao":"Computador Lenovo All-In-One Intel Pentium 8505, RAM 4GB, 252GB SSD, windows 11 Home..."
+    },
+    {
+        "id": 7,
+        "img": "../img/pen-drive-32gb-maxell-e300-20-preto.jpg",
+        "Title": "Pendrive Maxell",
+        "descricao":"Pendrive Maxell, 64GB de armazenamento, cor Preta (também temos de outros formatos e marcas...)"
+    },
+    {
+        "id": 8,
+        "img": "../img/1925-pccom-icue-intel-core-i7-13700kf-32gb-1tb-ssd-rtx-4070-windows-11-home.jpg",
+        "Title": "Gabinete Lenovo",
+        "descricao":"Gabinete Lenovo com placa gráfica GeForce RTX 4070, 1TB SSD, Processador Cor I7, RAM 32GB, windows 11 Home ..."
+    },
+    {
+
+        "id": 9,
+
+        "img": "../img/Microondas.jpg",
+        "Title": "Micronda CEN",
+        "descricao":"Micronda CEN, peso 15kg, cor Branco, tamanho médio, voltagem de 240-220V.. "
+    },
+    {
+        "id": 10,
+        "img": "../img/371059_3_bosch-gsn36vi3p-242l.jpg",
+        "Title": "Gileira Ango-Eri",
+        "descricao":"Gileira Ango-Eri, peso 80kg, cor Branco, Dobradice da porta Direita, 5 Prateleiras, 1,30cm de Altura..."
+    },
+    {
+        "id": 11,
+        "img": "../img/6f8d9f6fe76a6d74a8b4d458a4e381c3ae5cb838.jpg",
+        "Title": "Arca Candy",
+        "descricao":"Arca Congeladora Candy, vidro temperado, frígorifico vertical, cor Branco, peso 78kg, voltagem de entrada 220-240V..."
+    },
+    {
+        "id": 12,
+        "img": "../img/radio.jpg",
+        "Title": "Rádio",
+        "descricao":"Retekess TR618 Plug-in, Rádio de Parede com SD, captando muitos sinais de rádio facilitando os usuários..."
+    },
+    {
+        "id": 13,
+        "img": "../img/HD.jpg",
+        "Title": "HD externo",
+        "descricao":"HD Externo toshia com uma capacidade de armazenamento de 750 GB, permitindo aos usuários uma vasta capacidade de armazenamento..."
+    },
+    {
+        "id": 14,
+        "img": "../img/jarraElectrica.jpg",
+        "Title": "Chaleira Eléctrica",
+        "descricao":"Chaleira Eléctrica Inox com 1,8 Litros - 18| 220V, um dispositivo bom para poupança de gastos..."
+    },
+    {
+        "id": 15,
+        "img": "../img/microfone.jpg",
+        "Title": "Microfone",
+        "descricao":"Microfone Mancer Horcrux, RGB, USB, Preto, MCR-HCRX-BL01, um microfone com uma boa captação de voz/aúdios..."
+    },
+    {
+        "id": 16,
+        "img": "../img/AC.jpg",
+        "Title": "AC",
+        "descricao":"AC NEX Suncool 1X Ai Split AC (WI-FI), este dispositivo possui um painel solar podendo até trabalhar com a energia solar..."
+    },
+    {
+        "id": 17,
+        "img": "../img/cpu01.jpg",
+        "Title": "Gabinete HP",
+        "descricao":"Gabinete HP compaq Core 7 Duo 8GB de  RAM, com uma armazenamento de 1TB + Wifi..."
+    },
+    {
+        "id": 18,
+        "img": "../img/monitor.jpg",
+        "Title": "Monitor Gamer",
+        "descricao":"Monitor Gamer 24 FHD HDMI VGA, monitor de uma tamanho médio, facilitando a visibilidade de jogos..."
+    },
+    {
+        "id": 19,
+        "img": "../img/teclado.jpg",
+        "Title": "Teclado Luminoso",
+        "descricao":"Teclado Luminoso/Mecânico Ducky ONE 3 Classic Mini 60% MX-Silent Red, um teclado vantagioso pelo facto de possuir limunosidade, facilitando a visualização no escuro..."
+    },
+    {
+        "id": 20,
+        "img": "../img/primeiro pc.png",
+        "Title": "PC HP",
+        "descricao":"PC HP de boa qualidade, pertencente a nova geração de computadores e além do mais com bom processador e freqência..."
+    },
+    {
+        "id": 21,
+        "img": "../img/auriculares.jpg",
+        "Title": "Auriculares/Microfone",
+        "descricao":"Auriculares/Microfone, bom para produtores musicais, facilitando no precesso de reprodução e de gravação em apenas um dispositivo..."
+    },
+    {
+        "id": 22,
+        "img": "../img/bluetooth.jpg",
+        "Title": "Fone Bluetooth",
+        "descricao":"Fone Bluetooth, este dispositivo possui um microfone e 24 horas de bateria EDIFIER G2BT, bom para amantes de musicas..."
+    },
+    {
+        "id": 23,
+        "img": "../img/tv.jpg",
+        "Title": "Smart Tv",
+        "descricao":"Televisão ou monitor Samsung, uma smart TV  de 42 polegadas, sendo ela uma TV inteligente permitindo aos usuários a conexão a internet..."
+    },
+    {
+        "id": 24,
+        "img": "../img/mouse.jpg",
+        "Title": "Mouse",
+        "descricao":"Mouse sem fio Looney Tunes 3 Botões 1000Dpi Letron, bom mouse para design e possui um bom estilo e formato..."
+    },
+    {
+        "id": 25,
+        "img": "../img/DVD.jpg",
+        "Title": "DVD",
+        "descricao":"DVD Sony, este dispositivo é um leitor DVD com saída HDMI e AV, permitindo a reprodução de disco e arquivos encontrados em uma pendrive..."
+    },
+    {
+        "id": 26,
+        "img": "../img/ventilador.jpg",
+        "Title": "Ventilador",
+        "descricao":"Ventilador de Mesa Britânia 40cm BVT400 150W preto, facilitando nos momentos de calor e podes levar ela para qualquer lugar..."
+    },
+    {
+        "id": 27,
+        "img": "../img/Batideira.jpg",
+        "Title": "Batideira Kokav",
+        "descricao":"Batideira Kokav, é uma batideira Planária que possui 5Litros 65ml, facilitando aos pasteleiros a amassar a massa..."
+    },
+    {
+        "id": 28,
+        "img": "../img/tostadeira.jpg",
+        "Title": "Tostadeira Inovia",
+        "descricao":"Tostadeira inovia Grill&Toast 800W| INV-SW-KY2202, tostadeira de boa qualidade e com um longo tempo de duração..."
+    },
+    {
+        "id": 29,
+        "img": "../img/liquidificador.jpg",
+        "Title": "Liquidificadir",
+        "descricao":"Liquidificador de Vidro Jade 1,5L de Inox 500W UFESA, facilitando na realização de sumos naturais e muitos mais..."
+    },
+    {
+        "id": 30,
+        "img": "../img/microndas01.jpg",
+        "Title": "Microonda Consul",
+        "descricao":"Consul Forno Microondas, este dispositivo possui 32Litros, 127V 60HZ DCRE2021, faciltando na conservação de alimentos..."
+    },
+    {
+        "id": 31,
+        "img": "../img/maquinalavar.jpeg",
+        "Title": "Máquina de lavar",
+        "descricao":"Máquina de lavar Sea Cool, máquina de boa qualidade, facilitando na lavagem de roupas e outros elementos..."
+    },
+    {
+        "id": 32,
+        "img": "../img/torradeira.png",
+        "Title": "Torradeira",
+        "descricao":"Torradeira Rokiwa, uma torradeira de pão de boa qualidade, Rokiwa possui uma cor preta, 220V..."
+    },
+    {
+        "id": 33,
+        "img": "../img/engomar.jpg",
+        "Title": "Ferro de Engomar",
+        "descricao":"Ferro de engomar Vera, uma ferro de engomar de boa qualidade e moderno, facilitando em muitos casos..."
+    },
+    {
+        "id": 34,
+        "img": "../img/fogao.jpg",
+        "Title": "Fogão Eléctrico",
+        "descricao":"Fogão Eléctrico Agratto 2 Bocas Mesa 127V, uma boa escolha para economizar alguns gastos..."
+    },
+    {
+        "id": 35,
+        "img": "../img/secador.jpg",
+        "Title": "Secador Mondial",
+        "descricao":"Secador de Cabelos, Modial é um secador preto, 2000W, 220V - SCN-01, bom para cabeleleiros/salão de beleza ..."
+    }
+    
+    
+]

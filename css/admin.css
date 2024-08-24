@@ -1,0 +1,114 @@
+
+body {
+  min-width: 400px;
+  scroll-behavior: smooth;
+}
+.centro{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section.principal {
+  width: 60%;
+  display: block;
+  float: left;
+}
+
+.secundaria {
+  width: 35%;
+  background: #c2c1c1;
+  display: block;
+  float: right;
+  border-top-left-Radius: 20px;
+  border-bottom-right-Radius: 20px;
+}
+
+ul li {
+  list-style: none;
+  padding: 4px;
+}
+
+ul li:hover {
+  background: white;
+  padding-left: 30px;
+  margin-right: 20px;
+  border-Radius: 5px;
+  transition: all .7s;
+}
+
+ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#top-bar {
+  box-shadow: 6px 8px 8px 6px rgba(0, 0, 0, .1);
+}
+
+
+
+#CorpoLoader{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+#LoaderBodyCenter{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loaderBody{
+  position: relative;
+  width: 100%;
+  height: 60%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  transform: rotate(calc(45deg * var(--i)));
+}
+.loader span::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: calc(50% - 20px);
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(45deg, #f86956, #f8442c);
+  border-radius: 50%;
+  box-shadow: 0 0 50px #fa7361;
+}
+.rotate{
+  animation: animate 4s ease-in-out infinite;
+  animation-delay: calc(-0.2s * var(--j));
+}
+@keyframes animate {
+  0%{
+      transform: rotate(0deg);
+  }
+  100%{
+      transform: rotate(360deg);
+  }
+}
+
+svg{
+  width: 0;
+  height: 0;
+}

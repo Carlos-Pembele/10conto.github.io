@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Linkes importantes do html -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10conto</title>
+
+  <!--uso do favicon e link do css-->
+  <link rel="shortcut icon" href="./img/icon/icon10conto.png">
+  <link rel="stylesheet" href="./css/home.css">
+
+  <!--linke do bootstrap-->
+  <link rel="stylesheet" href="../boot/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+
+  <div class="interface">
+
+    <header data-bs-theme="dark">
+
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+
+        <!-- Carregamento -->
+        <div class="indicator bg-danger"></div>
+        <!-- Fim Carregamento -->
+
+        <div class="container-fluid">
+            <a class="stok navbar-brand" href="index.html"> <span class="text-danger">10</span>conto </a>
+          
+          <div class="cart" onclick="Troca()" >
+
+            <div style=" width: 100%; height: 45px;">
+              <div id="Animation" style="color: red; position: fixed; margin-left: 35px; background-color: white; width: 20px; height: 20px; border-radius: 10px; display: flex; justify-content: center; align-items: center; padding-top: 5px;">
+                <h6 style="font-size: 14px;" id="quantia"></h6>
+              </div>
+              <div class="Sacola-mother" style="width: 100%; height: 45px;display: flex; justify-content: center; align-items: center;"> 
+              <img src="../img/icon/sacola.png" style="cursor: pointer; width: 30px;"
+                class="img-fluid" id="Animation" alt="">
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <button class="navbar-toggler bg-danger border-danger" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="links navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="font nav-link active text-white link-danger" aria-current="page"
+                  href="index.html">Principal</a>
+              </li>
+              
+              <li class="nav-item ">
+                <a href="./pagina/chat10conto.html" class="font nav-link  text-white link-danger">Bater-Papo</a>
+              </li>
+              <li class="nav-item">
+                <a href="./pagina/contacto.html" class="font nav-link  text-white link-danger">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a href="./pagina/conta.html" class="font nav-link  text-white link-danger">Conta</a>
+              </li>
+              <li class="nav-item ">
+                <a href="./pagina/sobre.html" class="font nav-link  text-white link-danger">Saber Mais</a>
+              </li>
+              <li class="nav-item ApenasMobile " onclick="Ates()">
+                <a href="#" class="font nav-link  text-white link-danger">Criar Conta</a>
+              </li>
+              <li class="nav-item ApenasDesk">
+                <div onclick="Modelo()" class="Mymodal">
+                  <h1 class="text-danger">...</h1>
+                </div>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+        
+        <div class="modulo">
+          <ul>
+            <li   style="display: flex; justify-content: space-between; font-weight: 500;"><a href="pagina/conta.html">Perfil</a> <h6 onclick="ModeloFecho()" style="font-weight: bold; cursor: pointer; font-family: Verdana, Geneva, Tahoma, sans-serif; color: white; background-color: #2b2a2a; width: 25px; height: 25px; padding-left: 7px; border-radius: 12px; padding-top: 2px;">X</h6></li>
+            <li><a href="">Reportar Erros</a></li>
+            <li><a href="">Avaliar o site</a></li>
+          </ul>
+        </div>
+      
+  </nav>
+</header>
+
+    
+<div class="father">
+    <main>
+
+      <div class="navbar" id="MeuScrrol">
+
+        <div id="myCarousel" class="carousel slide mb-5 w-100" data-bs-ride="carousel" data-bs-theme="light">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active rounded-2"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+          </div>
+          <div class="carousel-inner">
+            <div class="inicio carousel-item active">
+              <svg class="top bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+              </svg>
+              <div class="inicio container">
+                <div class="carousel-caption text-start">
+                  <h1><span class="text-danger ">10</span>conto</h1>
+                  <p class="tema opacity-75">Plataforma de compra de Electrodomesticos e equipamentos electronicos de
+                    forma online.</p>
+                  <p><a class="button btn btn-nenhum btn-danger " href="#">Veja os produtos abaixo</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="inicio1 carousel-item ">
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+              </svg>
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1 class="text-end"><span class="text-danger ">10</span>conto Contact</h1>
+                  <p class="tema1 text-end opacity-75">Podes estar em contacto com a nossa empresa apartir dos nossos endereços.</p>
+                  <p class="text-end"><a class="button btn btn-nenhum btn-danger" href="../pagina/contacto.html">Ver Contacto</a></p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="false"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          
+          
+    <div style="background-color: #bbbaba; padding: 25px; ">
+      <div style="width: 100%; display: flex; align-items: center; justify-content: center; margin-bottom: 30px;">
+        <div class="pesquisa" style="width: 70%; display: flex; align-items: center; justify-content: center; background-color: gray; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; border-radius: 20px; box-shadow: 6px 8px 8px 6px rgba(0, 0, 0, .1);"> 
+          <input type="text" placeholder="O que tu procuras..." class="pesquisaInput" id="textPesquisa">
+         <label for="textPesquisa"><img for="text" src="../img/icon/pesquisa.png" style="width: 25px; cursor: pointer;" alt=""></label>
+        </div>
+      </div>
+    </div>
+
+
+
+        </div>
+        
+      </div>
+    </main>
+
+
+    <div class="componentes container">
+      
+      <div class="legenda">
+
+        <div class="componenteInicial">
+             <div class="componete" style="padding: 10px; width: 250px; text-align: center;">
+                    <img style="width: 70px;" src="../img/icon/entrega.png" alt="">
+                    <h4 class="text-danger" style="font-weight: bold; font-size: 19px; padding-top: 10px;">Entraga Grátis</h4>
+                    <h6 style="font-size: 15px; color: #777777;"> A entrega da sua encomenda é grátis apenas para a população de província de luanda</h6>
+             </div>
+
+             <div class="componete" style="padding: 10px; width: 250px; text-align: center;">
+              <img style="width: 70px;" src="../img/icon/confiança.png" alt="">
+              <h4 class="text-danger" style="font-weight: bold; font-size: 19px; padding-top: 10px;">Confiável</h4>
+              <h6 style="font-size: 15px; color: #777777;"> A sua garantia de devolução de componentes é de 15 dias caso notares alguma anómalia</h6>
+             </div>
+
+             <div class="componete" style="padding: 10px; width: 250px; text-align: center;">
+              <img style="width: 70px;" src="../img/icon/desconto1.png" alt="">
+              <h4 class="text-danger" style="font-weight: bold; font-size: 19px; padding-top: 10px;">Desconto até 10%</h4>
+              <h6 style="font-size: 15px; color: #777777;"> O desconto é aplicado para compras via cartão de crédito ou cupom </h6>
+            </div>
+
+            
+            <div class="componete" style="padding: 10px; width: 250px; text-align: center;">
+              <img style="width: 70px;" src="../img/icon/segurança.png" alt="">
+              <h4 class="text-danger" style="font-weight: bold; font-size: 19px; padding-top: 10px;">Seguro</h4>
+              <h6 style="font-size: 15px; color: #777777;"> Podes estar em contacto com a nossa empresa via email e com suporte de sistema </h6>
+            </div>
+
+        </div>
+
+        <p class="text">A 10conto é uma empresa lider em vendas de electrodomesticos e equipamentos electronicos em Angola,
+          localizada na província de Luanda no Municipio de Viana, Fundada com objectivos de fornecer aos clientes
+          produtos inovadores e de qualidade a preços acessíveis, a 10conto é conhecida por sua ampla gama de produtos
+          de ponta.
+        </p>
+        <div class="legenda_img pt-3 pb-3" id="Produto" style="justify-content: space-around;">
+          <div
+            style="width: 200px; box-shadow: 6px 8px 8px 6px rgba(0, 0, 0, .1); border: 2px solid #c2c2c2; border-top-right-radius: 10px; border-bottom-left-radius: 10px; margin-right: 100px;"
+            data-id="" class="parte">
+            <figure>
+              <div class="skeleton"></div>
+
+              <figcaption class="ps-2">
+                <p class="">
+                <h5 class="text-danger skeletonTitle"></h5>
+                <div class="skeletonDescri"></div>
+                <div class="Preco text-end me-3">
+                  <div class="skeletonButton"></div>
+                </div>
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div
+            style="width: 200px; box-shadow: 6px 8px 8px 6px rgba(0, 0, 0, .1); border: 2px solid #c2c2c2; border-top-right-radius: 10px; border-bottom-left-radius: 10px;"
+            data-id="" class="parte1">
+            <figure>
+              <div class="skeleton"></div>
+              <figcaption class="ps-2">
+                <p class="">
+                <h5 class="text-danger skeletonTitle"></h5>
+                <div class="skeletonDescri"></div>
+                <div class="Preco text-end me-3">
+                  <div class="skeletonButton"></div>
+                </div>
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div
+            style="width: 200px; box-shadow: 6px 8px 8px 6px rgba(0, 0, 0, .1); border: 2px solid #c2c2c2; border-top-right-radius: 10px; border-bottom-left-radius: 10px;"
+            data-id="" class="parte2">
+            <figure>
+              <div class="skeleton"></div>
+              <figcaption class="ps-2">
+                <p class="">
+                <h5 class="text-danger skeletonTitle"></h5>
+                <div class="skeletonDescri"></div>
+                <div class="Preco text-end me-3">
+                  <div class="skeletonButton"></div>
+                </div>
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    </div>
+
+
+    <div class="footer container-fluid ">
+      <hr>
+
+      <div class="footer_one">
+
+        <div class="usuario">
+
+          <ul class="rede0 list-unstyled">
+            <center>
+              <h5 class="text-ce">Sobre a 10Conto</h5>
+              <li><a class="link-danger text-secondary text-decoration-none" href="#">Equipa de desenvolvimento</a></li>
+              <li><a class="link-danger text-secondary text-decoration-none" href="#">Localização</a></li>
+              <li><a class="link-danger text-secondary text-decoration-none" href="#">Termos e Privacidade</a></li>
+            </center>
+          </ul>
+        </div>
+        <div class="images">
+          <div class="rede">
+            <center>
+              <h5 class="">Podes acessar as nossas redes sociais</h5>
+              <div class="carton">
+
+                
+                  <figure class="elemento_one d-flex  btn w-50">
+                    <a href="https://www.facebook.com/rosariomanzogani.patricio/" class="d-flex w-50">
+                    <img src="./img/icon/fb1.png" class="fot img-fluid" alt="">
+                    <figcaption class="linkfooter">
+                      <p class="text-danger ms-2">
+                        Facebook/10conto
+                      </p>
+                    </figcaption>
+                  </a>
+                  </figure>
+                
+
+                
+                  <figure class="elemento_one d-flex btn w-50">
+                    <a href="https://www.linkedin.com/in/carlos-pembele-464657311/" class="d-flex w-50">
+                      <img src="./img/icon/linkedin.png" class="fot img-fluid" alt="">
+                    <figcaption class="linkfooter">
+                      <p class="text-danger ms-2 notMobile">
+                        Linkedin/10conto
+                      </p>
+                    </figcaption>
+                  </a>
+                  </figure>
+
+                  <figure class="elemento_one d-flex btn w-50">
+                    <a href="https://github.com/Carlos-Pembele" class="d-flex w-50">
+                    <img src="./img/icon/placa-do-github.png" class="fot img-fluid" alt="">
+                    <figcaption class="linkfooter">
+                      <p class="text-danger ms-2">
+                        GitHub/10conto
+                      </p>
+                    </figcaption>
+                  </a>
+                  </figure>
+          
+            </center>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <script src="../js/home.js"></script>
+  <script src="../boot/bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

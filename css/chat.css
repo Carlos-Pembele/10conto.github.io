@@ -1,0 +1,208 @@
+.InformationInput{
+    position: relative;
+    width: 100%; 
+    margin-top: 100px;
+}
+.entradaSMS{
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center
+}
+.SMSDelete{
+    min-width: 300px;
+    max-width: 500px;
+    height: 130px; 
+    background-color: white; 
+    border-radius: 4px;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    top:0; 
+    margin: auto; 
+    padding:5px 50px; 
+    box-shadow: 0px 0px 27px -3px rgba(0, 0, 0.87);
+}
+#texto{
+    width: 50%; 
+    padding: 6px; 
+    border-radius: 7px; 
+    border: 1px solid rgb(95, 136, 248);
+}
+.Reset{
+    width: 70px; 
+    text-align: center; 
+    border-radius: 7px; 
+    margin-left: 10px; 
+    background-color: rgb(95, 136, 248);
+}
+.pagamentoBody{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.resposta{
+    width: 70%;
+    border: 1px solid rgb(95, 136, 248);;
+}
+
+#distance{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.certoElimnation{
+    width: 150px;
+}
+.distan{
+    padding-top: 15px;
+}
+
+
+
+  /* Responsividade para telas de celulares */
+  @media screen and (min-width:300px) and (max-width:767px) {
+    .SMSDelete{
+        width: 50%; 
+        height: 160px; 
+        background-color: white; 
+        position: absolute; 
+        left: 0; 
+        right: 0; 
+        bottom: 0; 
+        top:0; 
+        margin: auto; 
+        padding:5px 30px; 
+        box-shadow: 0px 0px 27px -3px rgba(0, 0, 0.87);
+    }
+    #distance{
+        display: block;
+    }
+    .sim{
+        width: 50%;
+        position: relative;
+        border: none; 
+        text-align: center;
+        border-radius: 10px;
+        margin-left: 25%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .txtbtn{
+        text-align: center;
+        padding-top: 5px;
+
+    }
+    .resposta{
+        margin: auto;
+        width: 100%;
+        border: 1px solid rgb(95, 136, 248);;
+    }
+    
+  }
+
+
+    
+  /* Responsividade para telas de Tablets */
+  @media screen and (min-width:767px) and (max-width:1023px){
+    .sim{
+        width: 30%;
+        font-size: 10px;
+        position: relative;
+        border: none; 
+        padding: 2px 5px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    .resposta{
+        width: 70%;
+        border: 1px solid rgb(95, 136, 248);;
+    }
+    .txtbtn{
+        text-align: center;
+        padding-top: 5px;
+
+    }
+
+  }
+
+  
+  /*Responsividade para telas Desktops */
+  @media screen and (min-width:1024px){
+    .InformationInput{
+        width: 100%; 
+        margin-top: 100px;
+    }
+    .entradaSMS{
+        width: 100%; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center
+    }
+    #texto{
+        width: 50%; 
+        padding: 6px; 
+        border-radius: 7px; 
+        border: 1px solid rgb(95, 136, 248);
+    }
+    .Reset{
+        width: 70px; 
+        text-align: center; 
+        border-radius: 7px; 
+        margin-left: 10px; 
+        background-color: rgb(95, 136, 248);
+    }
+    .pagamentoBody{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .resposta{
+        width: 70%;
+        border: 1px solid rgb(95, 136, 248);;
+    }
+    .SMSDelete{
+        width: 50%; 
+        height: 130px; 
+        background-color: white; 
+        position: absolute; 
+        left: 0; 
+        right: 0; 
+        bottom: 0; 
+        top:0; 
+        margin: auto; 
+        padding:5px 50px; 
+        box-shadow: 0px 0px 27px -3px rgba(0, 0, 0.87);
+    }
+    
+    #distance{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .certoElimnation{
+        width: 150px;
+    }
+    .distan{
+        padding-top: 15px;
+    }
+    .sim{
+        position: relative;
+        border: none; 
+        padding: 10px 50px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+
+  }

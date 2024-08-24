@@ -1,0 +1,54 @@
+
+.button{
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 1px;
+}
+
+.img{
+    width: 40px;
+    margin-right: 60px;
+}  
+.parte{
+margin-right: 40px;
+}
+.parte:hover{
+transform: translateY(-7px);
+transition: all 1s;
+}
+.parte2:hover{
+transform: translateY(-7px);
+transition: all 1s;
+}
+.parte1{
+margin-right: 45px;
+}
+.parte1:hover{
+transform: translateY(-7px);
+transition: all 1s;
+
+}
+
+.link{
+    text-decoration: none;
+}
+.botom{
+    margin: auto;
+}
+.btn{
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.elemento_one:hover{
+    transform: translateY(-5px);
+    transition: all 1s;
+}
+@keyframes foto {
+    0%{
+        transform: scale(.1) translateY(-1px);
+        opacity: 0;
+    }
+}
+.container1{
+    animation: foto 2s ease-in;
+    display: flex;
+}

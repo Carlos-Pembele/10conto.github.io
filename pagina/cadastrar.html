@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Linkes importantes do html -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10conto</title>
+
+    <!--uso do favicon e link do css-->
+    <link rel="shortcut icon" href="../img/icon/icon10conto.png">
+    <link rel="stylesheet" href="../css/login.css">
+
+    <!--linke do bootstrap-->
+    <link rel="stylesheet" href="../boot/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <div id="espalhamento"></div>
+
+    <div class="container">
+
+        <div class="conteudo_do_meu_site d-flex align-items-center justify-content-center" style="height:100vh;">
+
+            <!--Parâmetros do formulário-->
+            <form action="" class="form bg-light form-control form-fluid mx-auto" >
+
+                <div class="container">
+                    <h4 class=" logo text-center"> <span class="text-danger">10</span>conto</h4>
+                    <h5 class="logo text-center">Plataforma de compra Digital</h5>
+                </div>
+
+                <h5 class="ponto text-center text-danger" name="ponto"></h5>
+
+                <label for="nomeUser" class="form-label">Nome:</label><br>
+                <input type="text" name="nome" id="nomeUser" class="code form-control text-muted">
+                <h5 style="font-size: 14px; margin-left: 5px;" class="InformationName text-danger"></h5>
+                 <br>
+
+                <label for="emailUser" class="form-label">E-mail:</label><br>
+                <input type="email" name="email" id="emailUser" class="code form-control text-muted">
+                <h5 style="font-size: 14px; margin-left: 5px;" class="InformationEmail text-danger"></h5>
+                <br>
+
+                <label for="senhaUser" class="form-label">Senha:</label><br>
+                <input type="password" name="senha" id="senhaUser" class="senha form-control text-muted">
+                <h5 style="font-size: 14px; margin-left: 5px;" class="InformationSenha text-danger"></h5>
+                 <br>
+
+                <!--Elemntos do botão de entrar-->
+                <center>
+                    <div onclick="Chamada()"  class="but container text-center mb-3 bg-danger" style="width: 50%; padding: 10px; border-radius: 10px;">
+                        <a href="#"class=" text-white rounded-4 linkApp">Criar</a>
+                    </div>
+                </center>
+                <!--Elementos do rodapé do meu loggin-->
+                <div class="footer container text-center text-xl-center text-sm-center pt-2">
+                    <input type="checkbox" name="" id="lembrar">
+                    <label for="lembrar" class="text-nenhum-center">Lembrar acesso</label>
+                    <p class="nao text-center">Já tens uma conta? <a class="link-danger link-nenhum-center ps-4 linkApp"
+                            href="./login.html">Entrar</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/cadastro.js"></script>
+    <script src="../boot/bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+
+
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyDfbyZEYmJvNbAc2PWPpqdhNe_oIV7VGUE",
+            authDomain: "ecommerce-venda.firebaseapp.com",
+            projectId: "ecommerce-venda",
+            storageBucket: "ecommerce-venda.appspot.com",
+            messagingSenderId: "506916034786",
+            appId: "1:506916034786:web:1d882ed9d1151a2fb1a6bb"
+        };
+
+        firebase.initializeApp(firebaseConfig);  
+    </script>
+
+    
+</body>
+</html>

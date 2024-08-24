@@ -1,0 +1,343 @@
+.imagecart{
+    width: 35%;
+    left: 0;
+}
+.caracterProd{
+    width: 55%; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+.PrecoProd{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 50px;
+}
+.precoProduto{
+    width: 70%;
+}
+.ProdBtn{
+    width: 30%;
+}
+.pagamentoBody{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.pagamento{
+    width: 50%; 
+    height: 400px; 
+    background-color: white; 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    top: 20px; 
+    margin: auto; 
+    padding: 10px 50px; 
+    display: flex; 
+    flex-direction: column; 
+    box-shadow: 0px 0px 27px -3px rgba(0, 0, 0.87);
+}
+
+.SMSDelete{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-width: 250px;
+    max-width: 250px;
+    height: 300px; 
+    background-color: white; 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    top: 25px; 
+    margin: auto; 
+    padding: 10px 50px; 
+    text-align: center;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 27px -3px rgba(0, 0, 0.87);
+    min-width: 40%;
+    min-height: 300px;
+}
+.TituloPagamento{
+    font-size: 20px; 
+    color: rgb(138, 137, 137);
+}
+.labelPagamento{
+    font-size: 14px; 
+    font-weight: bold;
+}
+.InputPagamento{
+    padding: 5px; 
+    margin: 2px 0px; 
+    border: none; 
+    border-bottom: 1px solid gray;
+}
+.InputPagamento::placeholder{
+    color: rgb(163, 163, 163);
+}
+.CardIcon{
+    display: flex;
+}
+.tamanhoImagem{
+    width: 40px;
+    height: 40px;
+}
+.cardInformation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sm{
+    width: 30%;
+}
+.comprar{
+    position: absolute;
+    height: 40px;
+    bottom: -40px;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 0px 0px -3px rgba(0, 0, 0.87);
+    border: none;
+    cursor: pointer;
+}
+.Fechar{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: gray;
+    color: white;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+}
+.Fechar:hover{
+    background-color: rgb(243, 74, 74);
+    transition: 0.6s;
+}
+.EliminarItem{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 30px; 
+    height: 30px; 
+    display:flex; 
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer; 
+    background-color: white; 
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .1);
+}
+.EliminarItem:hover{
+    background-color: rgb(243, 74, 74);
+    transition: 1s;
+    color: white; 
+}
+.certoElimnation{
+    width: 100px;
+}
+.distan{
+    padding-top: 15px;
+}
+.sim{
+    border: none; 
+    padding: 10px 50px; 
+    border-radius: 10px;
+}
+.inputQuant{
+    width: 70px; 
+    text-align: center; 
+    border-radius: 7px; 
+    border: 1px solid gray;
+}
+.Min{
+    width:30px; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    padding-left: 8px; 
+    padding-right: 8px; 
+    border-radius: 8px; 
+    border: 1px solid gray; 
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none; 
+    background-color: white; 
+    color: gray
+}
+.Mai{
+    width:30px; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    padding-left: 8px; 
+    padding-right: 8px; 
+    border-radius: 8px; 
+    border: 1px solid gray; 
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none; 
+    background-color: white; 
+    color: gray
+}
+.TitleProd{
+    font-weight: bold; 
+    text-overflow: ellipsis; 
+    overflow: hidden;
+}
+.ImageProd{
+    width: 250px;
+    height: 150px; 
+    border-radius: 10px
+}
+
+
+/* Responsividade para telas de celulares */
+@media screen and (min-width:300px) and (max-width:767px) {
+.TituloPagamento{
+    font-size: 18px; 
+    color: rgb(138, 137, 137);
+}
+.inputQuant{
+    width: 30px; 
+    text-align: center; 
+    border-radius: 7px; 
+    border: 1px solid gray;
+}
+.pagamento{
+    width: 70%; 
+    height: 450px; 
+    background-color: white; 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    top: 20px; 
+    margin: auto; 
+    padding: 10px 20px; 
+    display: flex; 
+    flex-direction: column; 
+    box-shadow: 0px 0px 27px -3px rgba(0, 0, 0.87);
+}
+    .sim{
+        border: none; 
+        padding: 7px 20px; 
+        border-radius: 10px;
+    }
+    .distan{
+        padding-top: 3px;
+    }
+    .imagecart{
+        width: 30%;
+    }
+    .caracterProd{
+        width: 55%; 
+        margin-left: 20px;
+    }
+    .PrecoProd{
+        margin-top: 10px;
+    }
+    .precoProduto{
+        width: 50%;
+    }
+    .ProdBtn{
+        width: 70%;
+    }
+    
+
+.Min{
+    width:30px; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    padding-left: 6px; 
+    padding-right: 6px; 
+    border-radius: 8px; 
+    border: 1px solid gray; 
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none; 
+    background-color: white; 
+    color: gray
+}
+.Mai{
+    width:30px; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    padding-left: 6px; 
+    padding-right: 6px; 
+    border-radius: 8px; 
+    border: 1px solid gray; 
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none; 
+    background-color: white; 
+    color: gray
+}
+.ElementPr{
+    font-size: 19px;
+    font-weight: bold;
+}
+.ElementPrCima{
+    font-size: 15px;
+}
+.TitleProd{
+    font-size: 19px;
+}
+.EliminarItem{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 20px; 
+    height: 20px; 
+    display:flex; 
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer; 
+    background-color: white; 
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .1);
+}
+.DelProd{
+    font-size: 15px;
+}
+.ImageProd{
+    width: 170px;
+    height: 120px; 
+    border-radius: 10px
+}
+}
+
+
+/* Responsividade para telas de Tablets */
+@media screen and (min-width:767px) and (max-width:1023px){
+    .distan{
+        padding-top: 7px;
+    }
+    .imagecart{
+        width: 30%;
+    }
+    .imagecart{
+        width: 30%;
+    }
+    .caracterProd{
+        width: 55%; 
+        margin-left: 20px;
+    }
+    .PrecoProd{
+        margin-top: 10px;
+    }
+    .precoProduto{
+        width: 50%;
+    }
+    .ProdBtn{
+        width: 70%;
+    }
+    .SMSDelete{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,26 @@
+
+.top{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.img{
+     width: 40px;
+     margin-right: 60px;
+}
+    .legenda1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .botom{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .link{
+        text-decoration: none;
+    }
+    .botom{
+        margin: auto;
+    }
+    .btn{
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+
+   

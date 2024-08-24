@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Linkes importantes do html -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10conto</title>
+
+  <!--uso do favicon e link do css-->
+  <link rel="shortcut icon" href="../img/icon/icon10conto.png">
+  <link rel="stylesheet" href="../css/sobre.css">
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="stylesheet" href="../css/detalhe.css">
+
+  <!--linke do bootstrap-->
+  <link rel="stylesheet" href="../boot/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="interface">
+
+    <header data-bs-theme="dark">
+
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+
+        <!-- Carregamento -->
+        <div class="indicator bg-danger"></div>
+        <!-- Fim Carregamento -->
+
+        <div class="container-fluid">
+            <a class="stok navbar-brand" href="../index.html"> <span class="text-danger">10</span>conto </a>
+          
+          <div class="cart" onclick="Troca()" >
+
+            <div style=" width: 100%; height: 45px;">
+              <div id="Animation" style="color: red; position: fixed; margin-left: 35px; background-color: white; width: 20px; height: 20px; border-radius: 10px; display: flex; justify-content: center; align-items: center; padding-top: 5px;">
+                <h6 style="font-size: 14px;" id="quantia"></h6>
+              </div>
+              <div class="Sacola-mother" style="width: 100%; height: 45px;display: flex; justify-content: center; align-items: center;"> 
+              <img src="../img/icon/sacola.png" style="cursor: pointer; width: 30px;"
+                class="img-fluid" id="Animation" alt="">
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <button class="navbar-toggler bg-danger border-danger" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="links navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="font nav-link active text-white link-danger" aria-current="page"
+                  href="../index.html">Principal</a>
+              </li>
+              
+              <li class="nav-item ">
+                <a href="./chat10conto.html" class="font nav-link  text-white link-danger">Bater-Papo</a>
+              </li>
+              <li class="nav-item">
+                <a href="./contacto.html" class="font nav-link  text-white link-danger">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a href="./conta.html" class="font nav-link  text-white link-danger">Conta</a>
+              </li>
+              <li class="nav-item ">
+                <a href="./sobre.html" class="font nav-link  text-white link-danger">Saber Mais</a>
+              </li>
+              <li class="nav-item ApenasMobile " onclick="Ates()">
+                <a href="#" class="font nav-link  text-white link-danger">Criar Conta</a>
+              </li>
+              <li class="nav-item ApenasDesk">
+                <div onclick="Modelo()" class="Mymodal">
+                  <h1 class="text-danger">...</h1>
+                </div>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+        
+        <div class="modulo">
+          <ul>
+            <li   style="display: flex; justify-content: space-between; font-weight: 500;"><a href="./pagina/conta.html">Perfil</a> <h6 onclick="ModeloFecho()" style="font-weight: bold; cursor: pointer; font-family: Verdana, Geneva, Tahoma, sans-serif; color: white; background-color: #2b2a2a; width: 25px; height: 25px; padding-left: 7px; border-radius: 12px; padding-top: 2px;">X</h6></li>
+            <li><a href="">Reportar Erros</a></li>
+            <li><a href="">Avaliar o site</a></li>
+          </ul>
+        </div>
+      
+  </nav>
+    </header>
+
+
+    <div class="componentes container" style="margin-top: 100px;">
+
+      <div class="Conteudo">
+
+        <div class="LadoEsquerdo">
+
+          <p>
+            A 10conto é uma empresa de tecnologia criada por <a href="" class="link-danger "
+              style="text-decoration: none; font-weight: bold;">Carlos Salomão Pembele</a> em 17 de Maio de 2023.
+            Carlos, é um empreendedor e engenheiro de sistemas informáticos talentoso, teve visão de desenvolver
+            soluções inovadoras para o sector de electrônica e tecnologia. <br>
+          </p>
+
+          <p>
+            A empresa tem como objectivo principal fornecer produtos e serviços de alta qualidade, criando um impacto
+            significativo na vida das pessoas e no mercado em geral. A electrotec é conhecida por sua atenção aos
+            detalhes, qualidades superiores e comprimisso com inovação. <br><br>
+            Com a equipa altamente qualificada e com experiência no sector, a electrotec está constantemente buscando
+            por novas tecnologias emergencias e tendêcias de mercado. A empresa se esforça para desenvolver produtos
+            inovadores que atendam às necessidades e desejos dos consumidores, além de buscar soluções sustentáveis e
+            ambientalmente responsáveis. <br><br>
+          </p>
+
+        </div>
+
+        <div class="LadoDireito" style="text-align: center;">
+          <img src="../img/icon/MyLogo.png"  alt="" class="criador10Conto img-fluid"
+            style="margin: auto; width: 250px; border-radius: 10px;">
+        </div>
+
+      </div>
+
+      <div class="ConteudoCenter">
+
+        <p>
+          Além disso, a Electrotec também oferece serviços de consultoria e assistência técnica personalizada para
+          clientes corporativos. A equipe de especialistas de da empresa trabalha em estreita colaboração com os
+          clientes para entender as as suas necesiidades específicas e fornecer soluções personalizadas que ajudam a
+          impulsionar sua produtividade e eficiência. <br><br>
+          Com uma visão de longo prazo, a electrotec está comprometida em se manter vanguarda do sector electrônicos e
+          tecnologicos. A empresa investe em pesquisa e desenvolvimento contínuos para garantir que os seus produtos e
+          serviços estejam sempre alinhados com as ultimas tendências e demandas de mercado. <br><br>
+          A electrotec acredita que a tecnologia tem poder de transformar o mundo e melhorar a qualidadede vida das
+          pessoas. Por meio de seu comprimisso com a inovação, qualidade, excelência, a empresa está determinada em
+          fazer uma diferença significativa no mercado global de electrônica e tecnologia. <br>
+
+        </p>
+
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+
+  <div class="footer container-fluid ">
+    <hr>
+
+    <div class="footer_one">
+
+      <div class="usuario">
+
+        <ul class="rede0 list-unstyled">
+          <center>
+            <h5 class="text-ce">Sobre a 10Conto</h5>
+            <li><a class="link-danger text-secondary text-decoration-none" href="#">Equipa de desenvolvimento</a></li>
+            <li><a class="link-danger text-secondary text-decoration-none" href="#">Localização</a></li>
+            <li><a class="link-danger text-secondary text-decoration-none" href="#">Termos e Privacidade</a></li>
+          </center>
+        </ul>
+      </div>
+      <div class="images">
+        <div class="rede">
+          <center>
+            <h5 class="">Podes acessar as nossas redes sociais</h5>
+            <div class="carton">
+
+              
+                <figure class="elemento_one d-flex  btn w-50">
+                  <a href="https://www.facebook.com/rosariomanzogani.patricio/" class="d-flex w-50">
+                  <img src="../img/icon/fb1.png" class="fot img-fluid" alt="">
+                  <figcaption class="linkfooter">
+                    <p class="text-danger ms-2">
+                      Facebook/10conto
+                    </p>
+                  </figcaption>
+                </a>
+                </figure>
+              
+
+              
+                <figure class="elemento_one d-flex btn w-50">
+                  <a href="https://www.linkedin.com/in/carlos-pembele-464657311/" class="d-flex w-50">
+                    <img src="../img/icon/linkedin.png" class="fot img-fluid" alt="">
+                  <figcaption class="linkfooter">
+                    <p class="text-danger ms-2 notMobile">
+                      Linkedin/10conto
+                    </p>
+                  </figcaption>
+                </a>
+                </figure>
+
+                <figure class="elemento_one d-flex btn w-50">
+                  <a href="https://github.com/Carlos-Pembele" class="d-flex w-50">
+                  <img src="../img/icon/placa-do-github.png" class="fot img-fluid" alt="">
+                  <figcaption class="linkfooter">
+                    <p class="text-danger ms-2">
+                      GitHub/10conto
+                    </p>
+                  </figcaption>
+                </a>
+                </figure>
+        
+          </center>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+  <script src="../js/home.js"></script>
+  <script src="../boot/bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+  <script src="../js/detalhe.js"></script>
+</body>
+
+</html>

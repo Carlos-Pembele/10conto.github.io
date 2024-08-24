@@ -1,0 +1,123 @@
+#importarImagem{
+    display: none;
+}
+
+#importarImagemCima{
+    display: none;
+}
+.impor{
+    cursor: pointer;
+    position: absolute;
+    width: 70px; 
+    height: 70px; 
+    margin-left: 70%; 
+    top: 340px; 
+    border-radius: 35px; 
+    background-color: rgba(0, 0, 0, 0.4); 
+    box-shadow: 4px 4px 4px 4px rgba(15, 15, 15, 0.1)
+}
+.ImageImp{
+    cursor: pointer;
+    width: 55px; 
+    position: relative; 
+    margin-top: 7px; 
+    margin-left: 5px;
+}
+.importe{
+    cursor: pointer; 
+    width: 50px; 
+    height: 50px; 
+    margin-left: -60px; 
+    border-radius: 25px; 
+    background-color: rgba(0, 0, 0, 0.4); 
+    box-shadow: 4px 4px 4px 4px rgba(15, 15, 15, 0.1);
+}
+.importeIM{
+    width: 40px; 
+    position: relative; 
+    margin-top: 5px; 
+    margin-left: 3px;
+}
+
+
+
+  /*Responsividade para telas Desktops */
+  @media screen and (min-width:1024px){
+  }
+
+  
+  /* Responsividade para telas de celulares */
+  @media screen and (min-width:300px) and (max-width:767px) {
+    .impor{
+        cursor: pointer;
+        position: absolute;
+        width: 50px; 
+        height: 50px; 
+        margin-left: 70%; 
+        top: 360px; 
+        border-radius: 25px; 
+        background-color: rgba(0, 0, 0, 0.4); 
+        box-shadow: 4px 4px 4px 4px rgba(15, 15, 15, 0.1)
+    }
+    .ImageImp{
+        cursor: pointer;
+        width: 35px; 
+        position: relative; 
+        margin-top: 7px; 
+        margin-left: 1px;
+    }
+    .importe{
+        cursor: pointer; 
+        width: 40px; 
+        height: 40px; 
+        margin-left: -55px; 
+        border-radius: 25px; 
+        background-color: rgba(0, 0, 0, 0.4); 
+        box-shadow: 4px 4px 4px 4px rgba(15, 15, 15, 0.1);
+    }
+    .importeIM{
+        width: 30px; 
+        position: relative; 
+        margin-top: 5px; 
+        margin-left: 3px;
+    }
+    
+  }
+
+  
+  /* Responsividade para telas de Tablets */
+  @media screen and (min-width:767px) and (max-width:1023px){
+    .impor{
+        cursor: pointer;
+        position: absolute;
+        width: 50px; 
+        height: 50px; 
+        margin-left: 60%; 
+        top: 360px; 
+        border-radius: 25px; 
+        background-color: rgba(0, 0, 0, 0.4); 
+        box-shadow: 4px 4px 4px 4px rgba(15, 15, 15, 0.1)
+    }
+    .ImageImp{
+        cursor: pointer;
+        width: 35px; 
+        position: relative; 
+        margin-top: 7px; 
+        margin-left: 1px;
+    }
+    .importe{
+        cursor: pointer; 
+        width: 40px; 
+        height: 40px; 
+        margin-left: -55px; 
+        border-radius: 25px; 
+        background-color: rgba(0, 0, 0, 0.4); 
+        box-shadow: 4px 4px 4px 4px rgba(15, 15, 15, 0.1);
+    }
+    .importeIM{
+        width: 30px; 
+        position: relative; 
+        margin-top: 5px; 
+        margin-left: 3px;
+    }
+  }

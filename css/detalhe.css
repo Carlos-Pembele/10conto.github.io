@@ -1,0 +1,211 @@
+.componentes{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.detalhe{
+    margin-top: 10%;
+}
+.detalhe .foto img{
+    width: 100%;
+    border-radius: 10px;
+    height: 20rem;
+}
+.detalhe .detalhe_produto{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 1%;
+}
+.estrela_produto img{
+    width: 20px;
+}
+.classification{
+    margin-left: 50px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+}
+.classification .estrela_produto{
+    border: 1px solid #c2c2c2;
+    display: flex;
+    width: 70px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.classification .estrela_produto p{
+    margin-left: 5px;
+    justify-content: center;
+    top: 6px;
+    align-items: center;
+    position: relative;
+}
+.like_produto img{
+    width: 20px;
+}
+.classification .like_produto{
+    border: 1px solid #c2c2c2;
+    display: flex;
+    width: 70px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.like_produto p{
+    margin-left: 5px;
+    justify-content: center;
+    top: 6px;
+    align-items: center;
+    position: relative;   
+}
+.classification .tot{
+    border: 1px solid transparent;
+    display: flex;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.detalhe_bottom{
+    margin-left: 1%;
+}
+.classification .tot p{
+    color: #727272;
+    padding-right: 4px;
+    justify-content: center;
+    top: 10px;
+    align-items: center;
+    position: relative;
+}
+.preco_detalhe{
+    justify-content: space-between;
+    display: flex;
+}
+.preco_produto{
+    margin-left: 3%;
+    justify-content: center;
+    align-items: center;
+
+}
+.prom{
+    color: rgb(137, 137, 137);
+    text-align: center;
+}
+.pre{
+    margin-top: -10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.carrinho_produto p{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.caracter_table{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table tr th{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #a1a0a0;
+}
+table tr td{
+    border: 1px solid #a1a0a0;
+}
+table tr td.lado{
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.lado2{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.SMSDelete{
+    min-width: 250px;
+    max-width: 250px;
+    height: 300px; 
+    background-color: white; 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    top: 25px; 
+    margin: auto; 
+    padding: 10px 50px; 
+    text-align: center;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 27px -3px rgba(0, 0, 0.87);
+    min-width: 40%;
+    min-height: 300px;
+}
+.pagamentoBody{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.certoElimnation{
+    width: 100px;
+}
+.distan{
+    padding-top: 15px;
+}
+.sim{
+    border: none; 
+    padding: 10px 50px; 
+    border-radius: 10px;
+}
+
+
+
+
+/* Responsividade para telas de Tablets */
+@media screen and (min-width:767px) and (max-width:1023px){
+    .distan{
+        padding-top: 7px;
+    }
+}
+
+
+
+/* Responsividade para telas de celulares */
+@media screen and (min-width:300px) and (max-width:767px) {
+    .sim{
+        border: none; 
+        padding: 7px 20px; 
+        border-radius: 10px;
+    }
+    .distan{
+        padding-top: 3px;
+    }
+    .foto{
+        margin-top: 60px;
+    }
+}

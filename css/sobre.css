@@ -1,0 +1,44 @@
+.Conteudo{
+    display: flex;
+}
+.LadoEsquerdo{
+    width: 60%;
+}
+.LadoDireito{
+    width: 40%;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsividade para telas de celulares */
+@media screen and (min-width:300px) and (max-width:767px) {
+    .Conteudo{
+        display: block;
+    }
+    .LadoEsquerdo{
+        width: 100%;
+    }
+    .LadoDireito{
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+        padding-bottom: 30px;
+    }
+}
+
+/* Responsividade para telas de Tablets */
+@media screen and (min-width:767px) and (max-width:1023px){
+    .Conteudo{
+        display: block;
+    }
+    .LadoEsquerdo{
+        width: 100%;
+    }
+    .LadoDireito{
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+        padding-bottom: 30px;
+    }
+}
